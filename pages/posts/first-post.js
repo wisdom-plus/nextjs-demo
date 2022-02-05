@@ -1,10 +1,11 @@
 import Head from "next/head";
 import Link from "next/link";
 import Script from "next/script";
+import Layout from "../../componets/layout";
 
 export default function FirstPost() {
   return (
-    <>
+    <Layout>
       <Head>
         <title>First Post</title>
       </Head>
@@ -19,6 +20,6 @@ export default function FirstPost() {
           <a>Back to home</a>
         </Link>
       </h2>
-    </>
+    </Layout>
   );
 }
